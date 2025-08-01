@@ -1,0 +1,17 @@
+{
+  "name": "kenpos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive, offline-capable, web-based Point of Sale (POS) system.",
+  "scripts": {
+    "build": "echo 'This is a static project with no build step. See vercel.json for deployment configuration.'"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/jspdf": "^2.0.0",
+    "@types/jsbarcode": "^3.11.4"
+  }
+}
