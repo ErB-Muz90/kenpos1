@@ -4,14 +4,27 @@
   "private": true,
   "description": "A responsive, offline-capable, web-based Point of Sale (POS) system.",
   "scripts": {
-    "build": "echo 'This is a static project with no build step. See vercel.json for deployment configuration.'"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
+    "@types/jsbarcode": "^3.11.4",
+    "@types/jspdf": "^2.0.0",
+    "@types/qrcode": "^1.5.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@types/qrcode": "^1.5.5",
-    "@types/jspdf": "^2.0.0",
-    "@types/jsbarcode": "^3.11.4"
+    "typescript": "^5.0.0",
+    "vite": "^7.0.6"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.12",
+    "html2canvas": "^1.4.1",
+    "jsbarcode": "^3.12.1",
+    "jspdf": "^3.0.1",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.1.0"
   }
 }

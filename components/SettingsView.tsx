@@ -15,7 +15,7 @@ import HardwareSettings from './settings/HardwareSettings';
 import SmsSettings from './settings/SmsSettings';
 import WhatsAppSettings from './settings/WhatsAppSettings';
 import MpesaSettings from './settings/MpesaSettings';
-import { ICONS } from '../../constants';
+import { ICONS } from '../constants';
 
 interface SettingsViewProps {
     settings: Settings;

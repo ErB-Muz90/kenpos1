@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Customer, Sale, Permission } from '../types';
 import CustomerDetailView from './customers/CustomerDetailView';
 import CustomerModal from './customers/CustomerModal';
-import { ICONS } from '../../constants';
+import { ICONS } from '../constants';
 
 interface CustomersViewProps {
     customers: Customer[];
